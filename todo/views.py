@@ -2,7 +2,6 @@ from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic import View
 import asana
-from pprint import pprint as p
 from core.settings import ASANA_CONFIG
 from todo.forms import AddTaskForm
 from todo.utils import create_task, get_all_tasks, update_task, delete_task
